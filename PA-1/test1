@@ -1,0 +1,34 @@
+
+*-*-*-*-*-*-*-*-*-*-*-*
+State: ACCEPTING
+*-*-*-*-*-*-*-*-*-*-*-*
+Event: ORDER_RECEIVED
+Got an order of size = 0 items
+Invalid Payment-Attempts Reset to 0
+
+*-*-*-*-*-*-*-*-*-*-*-*
+State: PROCESSING
+*-*-*-*-*-*-*-*-*-*-*-*
+Getting Payment Method
+Event: VALID_PAYMENT
+
+*-*-*-*-*-*-*-*-*-*-*-*
+State: MANUFACTURING
+*-*-*-*-*-*-*-*-*-*-*-*
+Dispatching Factory Lines
+Event: MANUFACTURE_COMPLETED
+Shutting Down Factory Lines
+Client has been charged
+
+*-*-*-*-*-*-*-*-*-*-*-*
+State: SHIPPING
+*-*-*-*-*-*-*-*-*-*-*-*
+Getting Ship-To Address
+Event: SHIPMENT_ARRIVED
+Warranty has started
+Updating Statistics for SUCCESSFUL orders
+
+*-*-*-*-*-*-*-*-*-*-*-*
+State: ACCEPTING
+*-*-*-*-*-*-*-*-*-*-*-*
+

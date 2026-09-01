@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "processing.h": "c",
+        "manufacturing.h": "c",
+        "shipping.h": "c",
+        "statemodel.h": "c",
+        "stdlib.h": "c",
+        "state.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
+}

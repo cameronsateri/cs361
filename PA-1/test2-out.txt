@@ -1,0 +1,26 @@
+
+*-*-*-*-*-*-*-*-*-*-*-*
+State: ACCEPTING
+*-*-*-*-*-*-*-*-*-*-*-*
+Event: ORDER_RECEIVED
+Got an order of size = 0 items
+Invalid Payment-Attempts Reset to 0
+
+*-*-*-*-*-*-*-*-*-*-*-*
+State: PROCESSING
+*-*-*-*-*-*-*-*-*-*-*-*
+Getting Payment Method
+Event: VALID_PAYMENT
+
+*-*-*-*-*-*-*-*-*-*-*-*
+State: MANUFACTURING
+*-*-*-*-*-*-*-*-*-*-*-*
+Dispatching Factory Lines
+Event: MANUFACTURE_FAILED
+Shutting Down Factory Lines
+Updating Statistics for FAILED manufacturing
+
+*-*-*-*-*-*-*-*-*-*-*-*
+State: ACCEPTING
+*-*-*-*-*-*-*-*-*-*-*-*
+

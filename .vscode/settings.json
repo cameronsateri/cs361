@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "shmsegment.h": "c",
+        "signal.h": "c",
+        "stdbool.h": "c",
+        "unistd.h": "c",
+        "wrappers.h": "c",
+        "stdlib.h": "c",
+        "types.h": "c",
+        "stat.h": "c",
+        "__bit_reference": "c",
+        "__split_buffer": "c",
+        "string": "c",
+        "vector": "c",
+        "semaphore.h": "c",
+        "fcntl.h": "c",
+        "shmem.h": "c",
+        "in.h": "c",
+        "stdio.h": "c",
+        "socket.h": "c",
+        "string.h": "c"
+    }
+}
